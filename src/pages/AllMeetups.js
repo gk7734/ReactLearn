@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 import MeetupList from "../components/meetups/MeetupList";
-import {isRouteErrorResponse} from "react-router-dom";
 import Loading from "../components/ui/Loading";
 
 function AllMeetupsPage() {
