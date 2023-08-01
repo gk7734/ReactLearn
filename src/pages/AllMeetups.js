@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import MeetupList from "../components/meetups/MeetupList";
 import Loading from "../components/ui/Loading";
 
+
 function AllMeetupsPage() {
     const [isLoading, setIsLoading] = useState(false);
     const [loadedMeetups, setLoadedMeetups] = useState([]);

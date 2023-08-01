@@ -2,6 +2,10 @@
     padding: 1rem;
 }
 
+.noresize {
+    resize: none;
+}
+
 .control {
     margin-bottom: 0.5rem;
 }

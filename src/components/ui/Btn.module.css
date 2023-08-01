@@ -1,0 +1,16 @@
+.topRightButtonContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; /* Adjust the padding here to control the button's distance from the edges of the screen. */
+}
+
+.topRightButton {
+    background-color: #BF2E97; /* Adjust the background-color here for your preference. */
+    color: white; /* Adjust the text color here for your preference. */
+    font-family: 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    padding: 10px; /* Adjust the padding here to control the button's size. */
+    border: none;
+    cursor: pointer;
+}

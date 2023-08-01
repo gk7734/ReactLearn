@@ -44,7 +44,7 @@ function NewMeetupForm(props) {
                 </div>
                 <div className={classes.control}>
                     <label htmlFor="description">Description</label>
-                    <textarea
+                    <textarea className={classes.noresize}
                         id='description'
                         required rows='5'
                         ref={descriptionInputRef}
