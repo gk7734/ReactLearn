@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 import MeetupList from "../components/meetups/MeetupList";
+import {isRouteErrorResponse} from "react-router-dom";
+import Loading from "../components/ui/Loading";
 
 const DUMMY_DATA = [
     {
@@ -21,6 +25,21 @@ const DUMMY_DATA = [
     },
 ];
 function AllMeetupsPage() {
+    const [isLoading, setIsLoading] = useState(false);
+    const [loadedMeetups, setLoadedMeetups] = useState();
+    fetch('https://react-study-gk7734-default-rtdb.firebaseio.com/meetups.json',
+        ).then(response =>{
+            return  response.json();
+    }).then(data =>{
+        setIsLoading(true);
+    })
+
+    if (isLoading) {
+        return <section>
+            <Loading />
+        </section>
+    }
+
     return <section>
         <h1>All Meetups</h1>
         <MeetupList meetups={DUMMY_DATA}/>
