@@ -37,8 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://gk7734.github.io/ReactLearn/",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "homepage": "./"
 }
