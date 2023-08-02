@@ -1,7 +1,15 @@
+import {useContext} from "react";
+
 import "./mainNavi.css"
 import {Link} from "react-router-dom";
+import FavoritesContext from "../../store/favorites-context";
+import favoritesContext from "../../store/favorites-context";
+import {findByRole} from "@testing-library/react";
+import classes from "./MainNavigationTest.module.css"
 
 function MainNavi() {
+    const favoritesCtx = useContext(favoritesContext)
+
     return (
         <div className="container">
             <h1>
@@ -21,6 +29,7 @@ function MainNavi() {
                             </li>
                             <li className='nav_list_item'>
                                 <Link to='/favorites'>My Favorites</Link>
+                                <span className={classes.badge}>{favoritesCtx.totalFavorites}</span>
                             </li>
                             <li className='nav_list_item'>
                                 <Link to='https://github.com/gk7734/ReactLearn'>Develop Page</Link>

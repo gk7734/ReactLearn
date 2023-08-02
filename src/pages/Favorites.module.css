@@ -1,0 +1,9 @@
+.parent {
+    display: grid;
+    place-items: center; /* 가운데 정렬 */
+    height: 55vh;
+}
+
+h2 {
+    text-align: center;
+}
