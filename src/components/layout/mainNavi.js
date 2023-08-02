@@ -1,7 +1,7 @@
-import "./main1.css"
+import "./mainNavi.css"
 import {Link} from "react-router-dom";
 
-function main1(props) {
+function MainNavi() {
     return (
         <div className="container">
             <h1>
@@ -22,6 +22,9 @@ function main1(props) {
                             <li className='nav_list_item'>
                                 <Link to='/favorites'>My Favorites</Link>
                             </li>
+                            <li className='nav_list_item'>
+                                <Link to='https://github.com/gk7734/ReactLearn'>Develop Page</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -30,4 +33,4 @@ function main1(props) {
     );
 }
 
-export default main1;
+export default MainNavi;

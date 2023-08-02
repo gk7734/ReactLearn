@@ -1,8 +1,9 @@
-import Main1 from "../components/layout/main1";
+import MainNavi from "../components/layout/mainNavi";
+
 
 function MainPage() {
     return (
-        <Main1 />
+        <MainNavi />
     );
 }
 

@@ -7,6 +7,7 @@
 
 .topRightButton {
     background-color: #BF2E97; /* Adjust the background-color here for your preference. */
+    font-weight: bold;
     color: white; /* Adjust the text color here for your preference. */
     font-family: 'Helvetica Neue', sans-serif;
     text-transform: uppercase;

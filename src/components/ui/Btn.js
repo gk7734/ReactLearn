@@ -4,9 +4,7 @@ import {Link} from "react-router-dom";
 function Btn() {
     return (
         <div className={classes.topRightButtonContainer}>
-            <li className={classes.topRightButton}>
-                <Link to='/'>Back</Link>
-            </li>
+                <Link to='/' className={classes.topRightButton}>Back</Link>
         </div>
     );
 }

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import classes from "./MainNavigation.module.css";
+import classes from "./MainNavigationTest.module.css";
 
-function MainNavigation() {
+function MainNavigationTest() {
     return <header className={classes.header}>
         <div className={classes.logo}>GK Meetups</div>
         <nav>
@@ -21,4 +21,4 @@ function MainNavigation() {
     </header>
 }
 
-export default MainNavigation;
+export default MainNavigationTest;

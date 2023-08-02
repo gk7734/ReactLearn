@@ -1,6 +1,6 @@
 import classes from './Layout.module.css'
-// import MainNavigation from "./MainNavigation";
-// import Main1 from "./main1";
+// import MainNavigationTest from "./MainNavigationTest";
+// import Main1 from "./mainNavi";
 import Btn from "../ui/Btn"
 
 function Layout(props) {
